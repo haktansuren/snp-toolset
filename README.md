@@ -15,6 +15,7 @@ perl SNP_HapMapToNumeric.pl snp-table.hmp.txt 12
 
 **Description:**
 Program takes two argument, first argument is the HapMap file and second is the starting column number for the data (assuming first few columns are informative columns). If your data does not have any informative columns prior to SNP columns, enter 0 (zero). If it is HapMap data, you would like to use 12. 
+<<<<<<< HEAD
 
 ***SNP_HapMapFilterMissing.pl*** - Filtering HapMap file based on the missing value. 
 
@@ -30,3 +31,5 @@ perl SNP_HapMapFilterMissing.pl snp-table.hmp.txt 30
 
 **Description:**
 Program takes two argument, first argument is the HapMap file and second is the cut-off filter for the missing value. 
+=======
+>>>>>>> 91bbf94086d64dbcd37725268c184a152f918e54
